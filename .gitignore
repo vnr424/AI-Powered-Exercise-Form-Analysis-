@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+
+# Downloaded models (auto-downloads when running)
+yolov8n.pt
+
+# OS files
+.DS_Store
+
+# Generated outputs
+*.jpg
+*.png
+rep_*.txt
+session_*.txt
+set_*.txt
+
+# Keep these
+!README.txt
+!requirements.txt
