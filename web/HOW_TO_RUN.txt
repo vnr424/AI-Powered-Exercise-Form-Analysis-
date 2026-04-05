@@ -1,0 +1,19 @@
+HOW TO RUN THE WEB APPLICATION
+
+STEP 1: Install Dependencies
+  cd ~/Desktop/exercise-form-website-clean
+  npm install
+
+STEP 2: Start Backend (New Terminal)
+  cd ~/Desktop/FYP_Clean
+  source ~/Desktop/FYP/venv/bin/activate
+  python scripts/websocket_server.py
+
+STEP 3: Start Frontend (Original Terminal)
+  npm run dev
+
+STEP 4: Open Browser
+  http://localhost:3000
+
+STOP:
+  Ctrl + C in both terminals
